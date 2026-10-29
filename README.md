@@ -1,16 +1,48 @@
-# React + Vite
+# React Job Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple Job Portal application built using React. Users can view job listings, add new jobs, edit existing jobs, and delete jobs.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- React Router
+- Tailwind CSS
+- JSON Server
+- React Toastify
+- React Icons
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- View all job listings
+- View job details
+- Add a new job
+- Edit job details
+- Delete a job
+- Display toast notifications
 
-## Expanding the Oxlint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. Clone the repository.
+2. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the JSON Server:
+   The server will run on http://localhost:8000
+
+   ```bash
+   npm run server
+   ```
+
+4. Start the development server:
+   React will run on http://localhost:3000 
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in the terminal.
+
+
